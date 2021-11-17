@@ -1,0 +1,9 @@
+Ở project này em Sử dụng sequelize + reactJs + NodeJs(express).
+Vì em chưa deploy ứng dụng lên sever được nên em dùng MysqlWorkBench local để test ứng dụng.
+Sau khi lấy ứng dụng về thì vào file config.json trong folder config để config lại database. Ở đây em dùng development
+nên chỉ cần config lại development là được. Database không cần tạo sẵn, nhập tên db vào và dùng lệnh "yarn sequelize db:create"
+để tạo db và "yarn sequelize model:generate" để tạo model ạ. Chạy lệnh "yarn dev" để chạy react+ nodejs.
+Các hàm để query dữ liệu nằm trong folder controller. 
+Các hàm để check dữ liệu, upload ảnh nằm trong middlewares. 
+Folder client là ứng dụng react.
+
